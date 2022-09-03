@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="creak_sense",
-    version="0.0.2",
+    version="0.0.4",
     url="http://github.com/fractalego/creak_sense",
     author="Alberto Cetoli",
     author_email="alberto@fractalego.io",
@@ -17,9 +17,9 @@ setup(
         "creak_sense",
     ],
     install_requires=[
-        "transformers==4.17.0",
-        "sentence_transformers==2.0.0",
-        "torch==1.9.0",
+        "transformers>=4.17.0",
+        "sentence_transformers>=2.0.0",
+        "torch>=1.9.0",
     ],
     classifiers=[
         "License :: OSI Approved :: MIT License",
